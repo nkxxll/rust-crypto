@@ -1,0 +1,8 @@
+[package]
+name = "crypto"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+p256 = { version = "0.13.2", features = ["ecdh"] }
+rand = "0.8.5"
